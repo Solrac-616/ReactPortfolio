@@ -6,7 +6,6 @@ import Footer from './components/footer/Footer';
 import Info from './components/info/Info';
 import Loader from './components/Loader/Loader';
 import Navbar from './components/navbar/Navbar';
-import Scrollbar from './components/Scrollbar/Scrollbar';
 import Skills from './components/skills/Skills';
 import Slider from './components/slider/Slider';
 
@@ -50,11 +49,7 @@ useEffect(() => {
       <div className="App">
 
         <Navbar isScrolling={scrollTop} />
-
         
-        {/*<Scrollbar isScrolling={scrollTop} />*/}
-        
-      
         <Cover />
 
         <About />
