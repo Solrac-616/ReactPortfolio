@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Cards.css";
-import backgroundWave from "../../media/wave-cards.svg"
+
+import Images from "../../Constants/index.jsx";
 
 const Cards = (props) => {
   
@@ -31,7 +32,7 @@ const Cards = (props) => {
   return (
       <div className="card-container" id={props.id} onMouseEnter={backProyect}>
           <div className="snakes"></div>
-          <div className="card" style={{ backgroundImage: `url(${backgroundWave})` }} >
+          <div className="card" style={{ backgroundImage: `url(${Images.waveCards})` }} >
             <div className="content">
                 <h3>{props.number}</h3>
                 <h4>{props.title}</h4>

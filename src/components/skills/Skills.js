@@ -2,14 +2,7 @@ import React from 'react'
 import Skill from './Skill'
 import "./Skills.css"
 
-import skillReact from "../../media/react.png";
-import skillScript from "../../media/javascript.png";
-import skillWordpress from "../../media/wordpress.png";
-import skillBootstrap from "../../media/bootstrap.png";
-import skillCss from "../../media/css.png";
-import skillHtml from "../../media/html.png";
-import skillNode from "../../media/nodejs.png";
-import skillGit from "../../media/git.png";
+import Images from "../../Constants/index.jsx";
 
 const Skills = () => {
   return (
@@ -22,12 +15,12 @@ const Skills = () => {
 
             <div className="skills-row">
 
-                <Skill png={skillHtml} alt="react"/>
-                <Skill png={skillCss} alt="react"/>
-                <Skill png={skillScript} alt="react"/>
-                <Skill png={skillReact} alt="react"/>
-                <Skill png={skillNode} alt="react"/>
-                <Skill png={skillGit} alt="react"/>
+                <Skill png={Images.html} alt="react"/>
+                <Skill png={Images.css} alt="react"/>
+                <Skill png={Images.javascript} alt="react"/>
+                <Skill png={Images.react} alt="react"/>
+                <Skill png={Images.nodejs} alt="react"/>
+                <Skill png={Images.git} alt="react"/>
                 
             </div>
 

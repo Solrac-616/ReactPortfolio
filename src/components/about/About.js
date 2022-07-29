@@ -1,9 +1,10 @@
 import React from 'react';
 import "./About.css"
 
-import aboutImg from "../../media/about1.png"
+import Images from "../../Constants/index.jsx";
 
 const About = () => {
+
   return (
     <div id='section2' className="about-container">
 
@@ -15,7 +16,7 @@ const About = () => {
             <p>Experimentado en proyectos con tecnologías Node.js, React, Github, y Bootstrap. Con disposición en aprender y aplicar nuevas técnicas que puedan ser aplicadas en otros lenguajes de programación como Phyton y PHP; así mismo, en Diseño web, UX - IU</p>
         </div>
         <div className="about-img">
-            <img src={aboutImg} alt="About" />
+            <img src={Images.about} alt="About" />
         </div>
       </div>
 

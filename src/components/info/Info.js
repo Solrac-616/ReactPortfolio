@@ -1,8 +1,7 @@
 import React from 'react';
 import "./Info.css";
-import img1 from "../../media/wavdown1.svg";
-import img2 from "../../media/wavdown2.svg";
-import img3 from "../../media/wavdown3.svg";
+
+import Images from "../../Constants/index.jsx";
 
 
 const Info = () => {
@@ -13,9 +12,9 @@ const Info = () => {
             <a href={require('../../PDF/Curriculo.pdf')} download="Curriculo.pdf">Descargar PDF</a>
         </div>
 
-        <div className="wave wd3" style={{ backgroundImage: `url(${img3})` }}></div>
+        <div className="wave wd3" style={{ backgroundImage: `url(${Images.waveDown3})` }}></div>
         
-        <div className="wave wd1" style={{ backgroundImage: `url(${img1})` }}></div>
+        <div className="wave wd1" style={{ backgroundImage: `url(${Images.waveDown1})` }}></div>
 
     </div>
   )

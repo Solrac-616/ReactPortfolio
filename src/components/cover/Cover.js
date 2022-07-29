@@ -2,17 +2,9 @@ import React from 'react';
 import Typed from 'react-typed';
 import "./Cover.css";
 import "./Bubbles.css";
-import "./Waves.css"
-import img1 from "../../media/programing.png";
-import img2 from "../../media/wave.svg";
-import img3 from "../../media/wave2.svg";
+import "./Waves.css";
 
-import skillReact from "../../media/react2.png";
-import skillScript from "../../media/javascript2.png";
-import skillCss from "../../media/css2.png";
-import skillHtml from "../../media/html2.png";
-import skillNode from "../../media/nodejs2.png";
-import skillGit from "../../media/git2.png";
+import Images from "../../Constants/index.jsx";
 
 
 const Cover = () => {
@@ -20,22 +12,22 @@ const Cover = () => {
     <div id='section1' className='cover-container' >
       <div className="bubbles">
           <div className="bubble">
-            <img src={skillReact} alt="" />
+            <img src={Images.react} alt="" />
           </div>
           <div className="bubble">
-            <img src={skillGit} alt="" />
+            <img src={Images.git} alt="" />
           </div>
           <div className="bubble">
-            <img src={skillNode} alt="" />
+            <img src={Images.nodejs} alt="" />
           </div>
           <div className="bubble">
-            <img src={skillScript} alt="" />
+            <img src={Images.javascript} alt="" />
           </div>
           <div className="bubble">
-            <img src={skillHtml} alt="" />
+            <img src={Images.html} alt="" />
           </div>
           <div className="bubble">
-            <img src={skillCss} alt="" />
+            <img src={Images.css} alt="" />
           </div>
       </div>
 
@@ -63,12 +55,12 @@ const Cover = () => {
         </div>
  
         <div className="banner-img">
-          <img src={img1} alt="Dev Junior" />
+          <img src={Images.dev} alt="Dev Junior" />
         </div>
       </div>
 
-      <div className="wave w1" style={{ backgroundImage: `url(${img3})` }}></div>
-      <div className="wave w2" style={{ backgroundImage: `url(${img2})` }}></div>
+      <div className="wave w1" style={{ backgroundImage: `url(${Images.wave2})` }}></div>
+      <div className="wave w2" style={{ backgroundImage: `url(${Images.wave1})` }}></div>
 
     </div>
   )

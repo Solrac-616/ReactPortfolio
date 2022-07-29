@@ -2,9 +2,8 @@ import React from 'react';
 import Cards from './Cards';
 import "./Cards.css"
 import "./Slider.css";
-import artemisaBack from "../../media/artemisa.png";
-import gitBack from "../../media/github.png";
-import movieBack from "../../media/moviesweb.png";
+
+import Images from "../../Constants/index.jsx";
 
 const Slider = () => {
 
@@ -22,9 +21,9 @@ const Slider = () => {
   return (
     <div id='section4' className="proyects-container" onMouseLeave={resetBack}>
 
-        <div className="pr-back pr1" style={{ backgroundImage: `url(${artemisaBack})` }}></div>
-        <div className="pr-back pr2" style={{ backgroundImage: `url(${gitBack})` }}></div>
-        <div className="pr-back pr3" style={{ backgroundImage: `url(${movieBack})` }}></div>
+        <div className="pr-back pr1" style={{ backgroundImage: `url(${Images.artemisa})` }}></div>
+        <div className="pr-back pr2" style={{ backgroundImage: `url(${Images.github})` }}></div>
+        <div className="pr-back pr3" style={{ backgroundImage: `url(${Images.moviesWeb})` }}></div>
 
         <div className="proyects-title">
             <h2>My Projects</h2>
