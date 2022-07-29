@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Estilos scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* ancho barra */
+  }
+  ::-webkit-scrollbar-track {
+  /*background: #45f6ff;*/ /* color fondo barra */
+  background: linear-gradient(#03a9f4,#000532);
+  }
+  ::-webkit-scrollbar-thumb {
+  background: #484848; /* color barra */
+  border-radius: 10px; /* borde barra */
+  }
+  ::-webkit-scrollbar-thumb:hover {
+  background: #000000; /* color barra hover */
+}
+
+@media screen and (max-width: 960px)
+{
+
+
+}
