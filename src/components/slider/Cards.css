@@ -1,0 +1,201 @@
+.container
+{
+    width: 90%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .card-container
+{
+    background-color: #262184;
+    margin: 0px;
+    padding: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-container, .card
+{
+    border-radius: 20px;
+}
+
+.container .card
+{
+    position: relative;
+    width: 230px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 20px 50px rgb(0, 0, 0, 0.2);
+}
+
+.container:hover .card{
+    opacity: 0.2;
+}
+
+.container:hover .card:hover{
+    opacity: 1;
+}
+
+/*
+.container .card::before
+{
+    content: '';
+    width: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    background-color: rgb(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+*/
+
+.container .card .content
+{
+    padding: 30px;
+    text-align: center;
+}
+
+.container .card .content h3
+{
+    position: absolute;
+    right: 30px;
+    font-size: 4em;
+    font-weight: 800;
+    color: #03a9f4;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+.container .card:hover .content h3
+{
+    opacity: 1;
+    transform: translateY(-70px);
+}
+
+.container .card .content h4
+{
+    position: relative;
+    font-size: 22px;
+    color: #fff;
+    z-index: 2;
+    opacity: 0.5;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+.container .card:hover .content h4,
+.container .card:hover .content p
+{
+    opacity: 1;
+}
+
+.container .card:hover .pr1
+{
+    opacity: 0.7;
+}
+
+.container .card .content p
+{
+    position: relative;
+    font-size: 0.8em;
+    color: #fff;
+    z-index: 2;
+    opacity: 0.5;
+    font-weight: 300;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.container .card .content a
+{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 8px 15px;
+    background-color: #fff;
+    color: #0c002b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 620;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container .card span
+{
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.card-container:hover .snakes::before,
+.card-container:hover .snakes::after
+{
+    opacity: 1;
+}
+
+
+/*----------------------------------------ANIMACION HOVER----------------------------------------------------------*/
+
+.snakes
+{
+    height: 336px;
+    width: 236px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    left: 0px;
+}
+
+.snakes::before
+{
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: conic-gradient(transparent, transparent, transparent, #03a9f4);
+    opacity: 0;
+    animation: snake 4s linear infinite;
+}
+
+.snakes::after
+{
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: conic-gradient(transparent, transparent, transparent, #03a9f4);
+    opacity: 0;
+    animation: snake 4s linear infinite;
+    animation-delay: -2s;
+}
+
+@keyframes snake
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    } 
+}
+
+
+@media only screen and (max-width: 960px)
+{
+    .container
+    {
+        justify-content: space-around;
+    }
+}

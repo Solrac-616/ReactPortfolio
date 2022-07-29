@@ -1,0 +1,106 @@
+/*-----------------------------------title waves*/
+.title-wave-container
+{
+    position: relative;
+    
+}
+
+.title-wave-container h1:nth-child(1),
+.title-wave-container h1:nth-child(2)
+{
+    position: absolute;
+}
+
+.title-wave-container h1:nth-child(2)
+{
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+    font-weight: 100;
+}
+.title-wave-container h1:nth-child(1)
+{
+    color: #03a9f4;
+    font-weight: 100;
+    animation: wave1 4s ease-in-out infinite;
+}
+
+.title-wave-container h1:nth-child(3)
+{
+    color: #00000000;
+}
+
+@keyframes wave1 {
+    0%,100%
+    {
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+
+    50%
+    {
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%); 
+    }
+}
+
+
+/*------------------------------------WAVES  FONDO*/
+.wave
+{
+    position: absolute;
+    width: 150%;
+    min-height: 120px;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.w1
+{
+    max-height: 120px;
+    animation: waveDown 19s linear infinite;
+    opacity: 0.5;
+}
+
+.w2
+{
+    max-height: 120px;
+    animation: waveDown 22s linear infinite;
+}
+
+@keyframes waveDown {
+    0%
+    {
+        margin-left: 0;
+    }
+    50%
+    {
+        margin-left: -90px;
+    }
+    100%
+    {
+        margin-left: 0;
+    }
+    
+}
+
+
+@media screen and (max-width: 960px)
+{
+    .title-wave-container
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cover-container > h1{
+        text-align: center;
+        width: 90%;
+    }
+
+    .cover-container > p{
+        
+        text-align: center;
+        width: 85%;
+        line-height: 30px;
+    }
+
+}
