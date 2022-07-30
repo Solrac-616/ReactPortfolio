@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.54496bf1.css",
-    "main.js": "/static/js/main.67f0c7d1.js",
+    "main.css": "/static/css/main.aeefb9f7.css",
+    "main.js": "/static/js/main.807b207a.js",
     "static/media/Curriculo.pdf": "/static/media/Curriculo.dbed9e5142f1b18c2aaf.pdf",
     "static/media/moviesweb.png": "/static/media/moviesweb.425b0e3f6a5b67867d0e.png",
     "static/media/github.png": "/static/media/github.2ff7d2d189ca2e6ff4ef.png",
     "static/media/artemisa.png": "/static/media/artemisa.f866e270819fb1bb81f0.png",
     "static/media/Fondocss.mp4": "/static/media/Fondocss.bc5c31b5a5c87fea3103.mp4",
-    "static/media/programing.png": "/static/media/programing.493b6d8888e41abfd018.png",
-    "static/media/about1.png": "/static/media/about1.5dfddf00582bfea52cda.png",
+    "static/media/dev.png": "/static/media/dev.493b6d8888e41abfd018.png",
+    "static/media/about.png": "/static/media/about.5dfddf00582bfea52cda.png",
     "static/media/wordpress.png": "/static/media/wordpress.8e82bebdb1d26e0a9e70.png",
     "index.html": "/index.html",
-    "static/media/wave.svg": "/static/media/wave.05ed0aac96d9b868c023d965952ea7c7.svg",
+    "static/media/wave1.svg": "/static/media/wave1.05ed0aac96d9b868c023d965952ea7c7.svg",
     "static/media/wave2.svg": "/static/media/wave2.2bef196319be362a4e63319e1eb6d92b.svg",
-    "static/media/wavdown1.svg": "/static/media/wavdown1.7daa1d09f4602f471dae5c3d95f89639.svg",
-    "static/media/wavdown2.svg": "/static/media/wavdown2.312f23f35ceb42dac77a746d0bfc243b.svg",
-    "static/media/wavdown3.svg": "/static/media/wavdown3.4c89692ac0600f967556be4c89eaccaa.svg",
-    "static/media/wave-cards.svg": "/static/media/wave-cards.580defa2010f1a7838347e5a914ba90f.svg",
-    "main.54496bf1.css.map": "/static/css/main.54496bf1.css.map",
-    "main.67f0c7d1.js.map": "/static/js/main.67f0c7d1.js.map"
+    "static/media/wavedown1.svg": "/static/media/wavedown1.7daa1d09f4602f471dae5c3d95f89639.svg",
+    "static/media/wavedown2.svg": "/static/media/wavedown2.312f23f35ceb42dac77a746d0bfc243b.svg",
+    "static/media/wavedown3.svg": "/static/media/wavedown3.4c89692ac0600f967556be4c89eaccaa.svg",
+    "static/media/wavecards.svg": "/static/media/wavecards.580defa2010f1a7838347e5a914ba90f.svg",
+    "main.aeefb9f7.css.map": "/static/css/main.aeefb9f7.css.map",
+    "main.807b207a.js.map": "/static/js/main.807b207a.js.map"
   },
   "entrypoints": [
-    "static/css/main.54496bf1.css",
-    "static/js/main.67f0c7d1.js"
+    "static/css/main.aeefb9f7.css",
+    "static/js/main.807b207a.js"
   ]
 }
