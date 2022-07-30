@@ -32,7 +32,7 @@ const Navbar = ({isScrolling}) => {
               smooth={true}
               offset={-100}
               duration={500}>
-                Home
+                Hero
             </Link>
           </div>
           <div className="nav-link">
@@ -43,7 +43,7 @@ const Navbar = ({isScrolling}) => {
               smooth={true}
               offset={-100}
               duration={500}>
-                About
+                Resumen
             </Link>
           </div>
           <div className="nav-link">
@@ -55,7 +55,7 @@ const Navbar = ({isScrolling}) => {
               offset={0}
               duration={500}
               >
-                Projects
+                Proyectos
             </Link>
           </div>
           <div className="nav-link">
@@ -67,7 +67,7 @@ const Navbar = ({isScrolling}) => {
               offset={0}
               duration={500}
               >
-                Skills
+                Habilidades
             </Link>
           </div>
           

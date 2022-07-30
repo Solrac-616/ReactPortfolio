@@ -26,14 +26,14 @@ const Slider = () => {
         <div className="pr-back pr3" style={{ backgroundImage: `url(${Images.moviesWeb})` }}></div>
 
         <div className="proyects-title">
-            <h2>My Projects</h2>
+            <h2>Mis Proyectos</h2>
         </div>
         <div className="container">
-          <Cards number="1" id="cardP1" title="Artemisa" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, laboriosam." />
+          <Cards number="1" id="cardP1" title="Artemisa" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, laboriosam." link="http://artemisa.com.ve/" />
 
-          <Cards number="2" id="cardP2" title="API RESTful" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, laboriosam." />
+          <Cards number="2" id="cardP2" title="API RESTful" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, laboriosam." link="https://github.com/Solrac-616/API-RESTful" />
 
-          <Cards number="3" id="cardP3" title="Movies Website" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, laboriosam." />
+          <Cards number="3" id="cardP3" title="Movies Website" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, laboriosam." link="https://github.com/Solrac-616/Movies-Web" />
         </div>
     </div>
   )

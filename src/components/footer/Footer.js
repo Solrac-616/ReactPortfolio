@@ -40,8 +40,8 @@ const Footer = ({isScrollingTop}) => {
                         <h2>Carlos E. Brito</h2>
                     </div>
                     <div className="footer-contact">
-                        <h3>Contact me</h3>
-                        <p>And lets go to work</p>
+                        <h3>Contactame</h3>
+                        <p>Y vamos a trabajar</p>
                         <a href="https://wa.me/584249490052">
                             +58 412-380 9750
                         </a> <br />
@@ -63,14 +63,14 @@ const Footer = ({isScrollingTop}) => {
                     <div className="form-container">
                         <div className="text-form">
                             <p>
-                                Leave me a message by Gmail
+                                Déjame un mensaje por Gmail
                             </p>
                         </div>
                         <form ref={form} className='form1' onSubmit={sendEmail}>
                             <input type="text" name='name' placeholder='Your Full Name' required/>
                             <input type="email" name='email' placeholder='Your Email' required/>
                             <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-                            <button type='submit' className='brn-fmail'>Send Message</button>
+                            <button type='submit' className='brn-fmail'>ENVIAR CORREO</button>
                         </form>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ const Footer = ({isScrollingTop}) => {
             <div className="footer-sns-container">
                 <div className="footer-sns">
                     <div className="design-by">
-                        Design carlos Brito - Contract: <a href="https://wa.me/584123809750" target="_blank">+58412-3809750</a>
+                        Diseñado por carlos Brito - Contract: <a href="https://wa.me/584123809750" target="_blank">+58412-3809750</a>
                     </div>
                     <div className="sns-links">
                         <a href="https://www.linkedin.com/in/carlos-brito-carrero/" target="_blank" rel='noopener noreferrer'>
