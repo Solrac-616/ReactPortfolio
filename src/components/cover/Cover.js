@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
+import {motion} from 'framer-motion';
 import "./Cover.css";
 import "./Bubbles.css";
 import "./Waves.css";
@@ -31,7 +32,10 @@ const Cover = () => {
           </div>
       </div>
 
-      <div className="banner-container">
+      <motion.div
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        className="banner-container">
         <div className="name-container">
           <div className="saludo">
             <p>HOLA! este es mi </p>
@@ -57,7 +61,7 @@ const Cover = () => {
         <div className="banner-img">
           <img src={Images.dev} alt="Dev Junior" />
         </div>
-      </div>
+      </motion.div>
 
       <div className="wave w1" style={{ backgroundImage: `url(${Images.wave2})` }}></div>
       <div className="wave w2" style={{ backgroundImage: `url(${Images.wave1})` }}></div>
