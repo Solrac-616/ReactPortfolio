@@ -42,7 +42,7 @@ const Cover = () => {
             <h1>Portafolio</h1>
           </div>
           <div className="cover-typed">
-            <p>I am Carlos Brito: </p>
+            <p>Yo soy Carlos Brito: </p>
             <Typed
               strings={["Junior Frontend Developer Wordpress", "Junior Frontend Developer Javascript", "Junior Frontend Developer React"]}
               typeSpeed={100}
