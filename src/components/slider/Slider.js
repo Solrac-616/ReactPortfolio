@@ -29,11 +29,11 @@ const Slider = () => {
             <h2>Mis Proyectos</h2>
         </div>
         <div className="container">
-          <Cards number="1" id="cardP1" title="Artemisa" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, laboriosam." link="http://artemisa.com.ve/" />
+          <Cards number="1" id="cardP1" title="Artemisa" desc="Desarrollo en tecnología de WordPress y Divi. Implementación de lenguajes en Landing, Home Page y portafolio. Colaboración en mantenimiento general." link="http://artemisa.com.ve/" />
 
-          <Cards number="2" id="cardP2" title="API RESTful" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, laboriosam." link="https://github.com/Solrac-616/API-RESTful" />
+          <Cards number="2" id="cardP2" title="API RESTful" desc="Elaboracion de una API RESTful en el entorno de Node, aplicando el conjunto de peticiones para la gestion de usuarios y el manejo de bases de datos relacionadas." link="https://github.com/Solrac-616/API-RESTful" />
 
-          <Cards number="3" id="cardP3" title="Movies Website" desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, laboriosam." link="https://github.com/Solrac-616/Movies-Web" />
+          <Cards number="3" id="cardP3" title="Movies Website" desc="Adaptacion de template genrico de una web de Peliculas en HTML a componentes y logica de React. " link="https://github.com/Solrac-616/Movies-Web" />
         </div>
     </div>
   )

@@ -32,7 +32,7 @@ const Navbar = ({isScrolling}) => {
               smooth={true}
               offset={-100}
               duration={500}>
-                Hero
+                Home
             </Link>
           </div>
           <div className="nav-link">
