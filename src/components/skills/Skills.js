@@ -4,6 +4,7 @@ import "./Skills.css"
 
 import Images from "../../Constants/index.jsx";
 
+
 const Skills = () => {
   return (
     <div id='section3' className="skills-section">
@@ -13,7 +14,7 @@ const Skills = () => {
                 <h2>Habilidades</h2>
             </div>
 
-            <div className="skills-row">
+            <div className="skills-row" >
 
                 <Skill png={Images.html} alt="react"/>
                 <Skill png={Images.css} alt="react"/>

@@ -5,28 +5,25 @@
     
 }
 
-.title-wave-container h1:nth-child(1),
-.title-wave-container h1:nth-child(2)
+.title-wave-container h1::before
 {
     position: absolute;
 }
 
-.title-wave-container h1:nth-child(2)
+
+.title-wave-container h1::before
 {
-    color: transparent;
-    -webkit-text-stroke: 1px #ffffff;
-    font-weight: 100;
-}
-.title-wave-container h1:nth-child(1)
-{
+    content: 'Portafolio';
     color: #03a9f4;
     font-weight: 100;
     animation: wave1 4s ease-in-out infinite;
 }
 
-.title-wave-container h1:nth-child(3)
+.title-wave-container h1
 {
-    color: #00000000;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+    font-weight: 100;
 }
 
 @keyframes wave1 {

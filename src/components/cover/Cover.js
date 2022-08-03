@@ -37,9 +37,9 @@ const Cover = () => {
             <p>HOLA! este es mi </p>
           </div>
           <div className="title-wave-container">
+
             <h1>Portafolio</h1>
-            <h1>Portafolio</h1>
-            <h1>Portafolio</h1>
+
           </div>
           <div className="cover-typed">
             <p>Yo soy Carlos Brito: </p>

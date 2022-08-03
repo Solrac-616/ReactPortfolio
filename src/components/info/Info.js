@@ -8,7 +8,7 @@ const Info = () => {
   return (
     <div id='section5' className="info-container">
         <div className="info">
-            <h2>Estoy listo y entusiasmado por trabajar con ustedes..</h2>
+            <p>Estoy listo y entusiasmado por trabajar con ustedes..</p>
             <a href={require('../../PDF/CarlosBritoCurriculoOnPage.pdf')} download="CarlosBritoCurriculoOnPage.pdf">Descargar PDF</a>
         </div>
 
