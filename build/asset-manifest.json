@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.aeefb9f7.css",
+    "main.css": "/static/css/main.29cc746e.css",
     "main.js": "/static/js/main.f0c45e0d.js",
     "static/media/CarlosBritoCurriculoOnPage.pdf": "/static/media/CarlosBritoCurriculoOnPage.6c4a2c98337fb8fd3c7b.pdf",
     "static/media/moviesweb.png": "/static/media/moviesweb.425b0e3f6a5b67867d0e.png",
@@ -17,11 +17,11 @@
     "static/media/wavedown2.svg": "/static/media/wavedown2.312f23f35ceb42dac77a746d0bfc243b.svg",
     "static/media/wavedown3.svg": "/static/media/wavedown3.4c89692ac0600f967556be4c89eaccaa.svg",
     "static/media/wavecards.svg": "/static/media/wavecards.580defa2010f1a7838347e5a914ba90f.svg",
-    "main.aeefb9f7.css.map": "/static/css/main.aeefb9f7.css.map",
+    "main.29cc746e.css.map": "/static/css/main.29cc746e.css.map",
     "main.f0c45e0d.js.map": "/static/js/main.f0c45e0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.aeefb9f7.css",
+    "static/css/main.29cc746e.css",
     "static/js/main.f0c45e0d.js"
   ]
 }
