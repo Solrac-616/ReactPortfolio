@@ -9,7 +9,7 @@ const Info = () => {
     <div id='section5' className="info-container">
         <div className="info">
             <h2>Estoy listo y entusiasmado por trabajar con ustedes..</h2>
-            <a href={require('../../PDF/Curriculo.pdf')} download="Curriculo.pdf">Descargar PDF</a>
+            <a href={require('../../PDF/CarlosBritoCurriculoOnPage.pdf')} download="CarlosBritoCurriculoOnPage.pdf">Descargar PDF</a>
         </div>
 
         <div className="wave wd3" style={{ backgroundImage: `url(${Images.waveDown3})` }}></div>

@@ -37,7 +37,7 @@ const Cards = (props) => {
                 <h3>{props.number}</h3>
                 <h4>{props.title}</h4>
                 <p>{props.desc}</p>
-                <a rel='noopener noreferrer' href={props.link} target="_blank">view project</a>
+                <a rel='noopener noreferrer' href={props.link} target="_blank">ver Proyecto</a>
             </div>
           </div>
       </div>
