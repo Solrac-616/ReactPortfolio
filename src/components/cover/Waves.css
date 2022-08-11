@@ -13,7 +13,7 @@
 
 .title-wave-container h1::before
 {
-    content: 'Portafolio';
+    content: 'Portfolio';
     color: #03a9f4;
     font-weight: 100;
     animation: wave1 4s ease-in-out infinite;

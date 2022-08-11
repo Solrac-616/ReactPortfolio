@@ -10,10 +10,10 @@ const About = () => {
 
       <div className="about-content">
       <div className="about-desc">
-            <h3>Dejame contarte sobre Mi</h3>
-            <p>Venezolano graduado de la Universidad Simón Bolívar, en la mención de Tecnología Electrónica, con más de 1 año de experiencia laboral profesional desarrollando proyectos Fronted utilizando las herramientas de WordPress, Divi y Elementor. Conocimiento medio-alto en HTML, CSS y Javascript, con gran capacidad para resolver problemas de lógica, comprendiendo el manejo del flujo HTML y animaciones CSS.</p>
+            <h3>Let me tell you about me</h3>
+            <p>Venezuelan graduate of the Simón Bolívar University, in the mention of Electronic Technology, with more than 1 year of professional work experience developing Fronted projects using WordPress, Divi and Elementor tools. Medium-high knowledge in HTML, CSS and Javascript, with great ability to solve logic problems, understanding the handling of HTML flow and CSS animations.</p>
             <br/>
-            <p>Experimentado en proyectos con tecnologías Node.js, React, Github, y Bootstrap. Con disposición en aprender y aplicar nuevas técnicas que puedan ser aplicadas en otros lenguajes de programación como Phyton y PHP; así mismo, en Diseño web, UX - IU</p>
+            <p>Experienced in projects with Node.js, React, Github, and Bootstrap technologies. Willing to learn and apply new techniques that can be applied in other programming languages such as Python and PHP; likewise, in Web Design, UX - UI.</p>
         </div>
         <div className="about-img">
             <img src={Images.about} alt="About" />

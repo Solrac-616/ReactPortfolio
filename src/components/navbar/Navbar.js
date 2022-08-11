@@ -43,7 +43,7 @@ const Navbar = ({isScrolling}) => {
               smooth={true}
               offset={-100}
               duration={500}>
-                Resumen
+                About
             </Link>
           </div>
           <div className="nav-link">
@@ -55,7 +55,7 @@ const Navbar = ({isScrolling}) => {
               offset={0}
               duration={500}
               >
-                Proyectos
+                Projects
             </Link>
           </div>
           <div className="nav-link">
@@ -67,7 +67,7 @@ const Navbar = ({isScrolling}) => {
               offset={0}
               duration={500}
               >
-                Habilidades
+                Skills
             </Link>
           </div>
           

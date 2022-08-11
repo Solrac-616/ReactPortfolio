@@ -11,17 +11,17 @@ const Skills = () => {
         <div className="skills-container">
 
             <div className="skills-title">
-                <h2>Habilidades</h2>
+                <h2>Skills</h2>
             </div>
 
             <div className="skills-row" >
 
-                <Skill png={Images.html} alt="react"/>
-                <Skill png={Images.css} alt="react"/>
-                <Skill png={Images.javascript} alt="react"/>
+                <Skill png={Images.html} alt="html"/>
+                <Skill png={Images.css} alt="css"/>
+                <Skill png={Images.javascript} alt="JavaScript"/>
                 <Skill png={Images.react} alt="react"/>
-                <Skill png={Images.nodejs} alt="react"/>
-                <Skill png={Images.git} alt="react"/>
+                <Skill png={Images.nodejs} alt="Node"/>
+                <Skill png={Images.git} alt="Git"/>
                 
             </div>
 
