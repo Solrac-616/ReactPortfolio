@@ -8,7 +8,7 @@ const Loader = () => {
   return (
     <div className='load-page'>
         <Rings color="#03a9f4" height={200} width={200}/>
-          <p>Cargando Portafolio . . .</p>
+          <p>Loading Portfolio . . .</p>
     </div>
   )
 }

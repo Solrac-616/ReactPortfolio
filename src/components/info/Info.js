@@ -8,8 +8,8 @@ const Info = () => {
   return (
     <div id='section5' className="info-container">
         <div className="info">
-            <p>I'mready to work with you..</p>
-            <a href={require('../../PDF/CarlosBritoCurriculoOnPage.pdf')} download="CarlosBritoCurriculoOnPage.pdf">Download PDF</a>
+            <p>I'm ready to work with you..</p>
+            <a href={require('../../PDF/CarlosBritoCurriculoOnPageEng.pdf')} download="CarlosBritoCurriculoOnPageEng.pdf">Download PDF</a>
         </div>
 
         <div className="wave wd3" style={{ backgroundImage: `url(${Images.waveDown3})` }}></div>
