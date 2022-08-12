@@ -1,13 +1,17 @@
 import React from 'react';
 import Typed from 'react-typed';
+import { motion } from "framer-motion";
 import "./Cover.css";
 import "./Bubbles.css";
 import "./Waves.css";
 
 import Images from "../../Constants/index.jsx";
+import { useRef } from 'react';
 
 
 const Cover = () => {
+  const scrollRef = useRef(null);
+
   return (
     <div id='section1' className='cover-container' >
       <div className="bubbles">
@@ -31,7 +35,20 @@ const Cover = () => {
           </div>
       </div>
 
-      <div className="banner-container">
+      <motion.div 
+      initial={{
+        y: 200,
+        opacity: 0       
+      }}
+      whileInView={{
+        y: 0,
+        opacity: 1
+      }}
+      transition={{
+        duration: 1
+      }}
+      viewport={{root: scrollRef}}
+      className="banner-container">
         <div className="name-container">
           <div className="saludo">
             <p>Hello!! this is my portfolio</p>
@@ -57,7 +74,7 @@ const Cover = () => {
         <div className="banner-img">
           <img src={Images.dev} alt="Dev Junior" />
         </div>
-      </div>
+      </motion.div>
 
       <div className="wave w1" style={{ backgroundImage: `url(${Images.wave2})` }}></div>
       <div className="wave w2" style={{ backgroundImage: `url(${Images.wave1})` }}></div>

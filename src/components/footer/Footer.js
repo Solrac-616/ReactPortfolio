@@ -3,8 +3,10 @@ import emailjs from '@emailjs/browser';
 import "./Footer.css";
 import "./Socialshover.css";
 import backvideo from "../../media/Fondocss.mp4"
+import { motion } from "framer-motion";
 
 const Footer = ({isScrollingTop}) => {
+    const scrollRef = useRef(null);
 
     const form = useRef();
 
@@ -27,7 +29,18 @@ const Footer = ({isScrollingTop}) => {
   return (
     <footer className="footer">
 
-        <div className="footer-container-relative">
+        <motion.div
+        initial={{
+            opacity: 0       
+          }}
+          whileInView={{
+            opacity: 1
+          }}
+          transition={{
+            duration: 1
+          }}
+          viewport={{root: scrollRef}}
+        className="footer-container-relative">
 
             <div className="video-container">
                 <video className='video' src={backvideo} autoPlay loop muted ></video>
@@ -96,7 +109,7 @@ const Footer = ({isScrollingTop}) => {
             </div>
             
         
-        </div>
+        </motion.div>
 
     </footer>
   )
