@@ -11,6 +11,8 @@
     width: 90%;
     max-width: 1080px;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 
 .skills-title
