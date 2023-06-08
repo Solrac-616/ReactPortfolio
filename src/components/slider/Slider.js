@@ -24,7 +24,7 @@ const Slider = () => {
   return (
     <div id='section4' className="proyects-container" onMouseLeave={resetBack}>
 
-        <div className="pr-back pr1" style={{ backgroundImage: `url(${Images.artemisa})` }}></div>
+        <div className="pr-back pr1" style={{ backgroundImage: `url(${Images.garibaldy})` }}></div>
         <div className="pr-back pr2" style={{ backgroundImage: `url(${Images.github})` }}></div>
         <div className="pr-back pr3" style={{ backgroundImage: `url(${Images.moviesWeb})` }}></div>
 
@@ -46,7 +46,7 @@ const Slider = () => {
             <h2>My projects</h2>
           </div>
           <div className="container">
-            <Cards number="1" id="cardP1" title="Artemisa" desc="Development in WordPress and Divi technology. Implementation of languages in Landing, Home Page and portfolio. Collaboration in general maintenance." link="http://artemisa.com.ve/" />
+            <Cards number="1" id="cardP1" title="Garibaldy" desc="Web page development with React + Vite with dynamic animations in Framer motion and light-dark theme change." link="https://development.garibaldy.com/" />
 
             <Cards number="2" id="cardP2" title="API RESTful" desc="Elaboration of a RESTful API in the Node environment, applying the set of requests for the management of users and the management of related databases." link="https://github.com/Solrac-616/API-RESTful" />
 

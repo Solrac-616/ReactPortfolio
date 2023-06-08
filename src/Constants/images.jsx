@@ -24,6 +24,7 @@ import waveDown1 from "../media/wavedown1.svg";
 import WaveDown2 from "../media/wavedown2.svg";
 import waveDown3 from "../media/wavedown3.svg";
 import wordpress from "../media/wordpress.png";
+import garibaldy from "../media/garibaldy.webp";
 
 export default{
     about,
@@ -51,5 +52,6 @@ export default{
     waveDown1,
     WaveDown2,
     waveDown3,
-    wordpress
+    wordpress,
+    garibaldy
 };

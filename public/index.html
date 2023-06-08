@@ -19,11 +19,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
-    <title>Portafolio</title>
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Portfolio</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="loader-wrapper">
+
+      <div class="loader">
+        <div class="load1"></div>
+        <div class="load2"></div>
+        <div class="load3"></div>
+        <div class="load4"></div>
+        <div class="load5"></div>
+        <div class="load6"></div>
+        <div class="load7"></div>
+        <div class="load8"></div>
+        <div class="load9"></div>
+      </div>
+
+    </div>
     <div id="root"></div>
+
+    <script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+
+      });
+    </script>
    
   </body>
 </html>

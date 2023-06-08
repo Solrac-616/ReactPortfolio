@@ -61,7 +61,7 @@ const Cover = () => {
           <div className="cover-typed">
             <p>I'm Carlos Brito: </p>
             <Typed
-              strings={["Junior Frontend Developer Wordpress", "Junior Frontend Developer Javascript", "Junior Frontend Developer React"]}
+              strings={["Full Stack Developer Node", "Full Stack Developer MongoDb", "Full Stack Developer React", "Full Stack Developer MySql", "Full Stack Developer and WordPress.. just in case"]}
               typeSpeed={100}
               backSpeed={150}
               backDelay={2}

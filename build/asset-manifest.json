@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2c52722.css",
-    "main.js": "/static/js/main.8f85c8c0.js",
-    "static/media/CarlosBritoCurriculoOnPageEng.pdf": "/static/media/CarlosBritoCurriculoOnPageEng.2e9e008835e32d4ad161.pdf",
+    "main.css": "/static/css/main.c23bfa91.css",
+    "main.js": "/static/js/main.c0da7002.js",
+    "static/media/CarlosBritoCurriculoOnPageEng.pdf": "/static/media/CarlosBritoCurriculoOnPageEng.48c649e5c4282d7af260.pdf",
     "static/media/moviesweb.png": "/static/media/moviesweb.425b0e3f6a5b67867d0e.png",
     "static/media/github.png": "/static/media/github.2ff7d2d189ca2e6ff4ef.png",
     "static/media/artemisa.png": "/static/media/artemisa.f866e270819fb1bb81f0.png",
     "static/media/Fondocss.mp4": "/static/media/Fondocss.bc5c31b5a5c87fea3103.mp4",
+    "static/media/garibaldy.webp": "/static/media/garibaldy.d12e62095f8fae269835.webp",
     "static/media/dev.png": "/static/media/dev.493b6d8888e41abfd018.png",
     "static/media/about.png": "/static/media/about.5dfddf00582bfea52cda.png",
     "static/media/wordpress.png": "/static/media/wordpress.8e82bebdb1d26e0a9e70.png",
@@ -17,11 +18,11 @@
     "static/media/wavedown2.svg": "/static/media/wavedown2.312f23f35ceb42dac77a746d0bfc243b.svg",
     "static/media/wavedown3.svg": "/static/media/wavedown3.4c89692ac0600f967556be4c89eaccaa.svg",
     "static/media/wavecards.svg": "/static/media/wavecards.580defa2010f1a7838347e5a914ba90f.svg",
-    "main.b2c52722.css.map": "/static/css/main.b2c52722.css.map",
-    "main.8f85c8c0.js.map": "/static/js/main.8f85c8c0.js.map"
+    "main.c23bfa91.css.map": "/static/css/main.c23bfa91.css.map",
+    "main.c0da7002.js.map": "/static/js/main.c0da7002.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2c52722.css",
-    "static/js/main.8f85c8c0.js"
+    "static/css/main.c23bfa91.css",
+    "static/js/main.c0da7002.js"
   ]
 }

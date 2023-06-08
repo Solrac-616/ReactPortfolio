@@ -26,15 +26,15 @@ useEffect(() => {
   return () =>  window.removeEventListener("scroll", onScroll);
 }, []);
 
-/*----------------------------------------------------------loading*/
-  const [loading, setLoading] = useState(false);
+/*----------------------------------------------------------loading -  por tiempo*/
+  // const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false);
-    }, 3500);
-  }, []);
+  // useEffect(() => {
+  //   setLoading(true)
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 3500);
+  // }, []);
 
 
   /*-----------------------------------------------------------PRUEBAS */
@@ -42,28 +42,22 @@ useEffect(() => {
   
 
   return (
-    <>
-    {loading ? (
-      <Loader />
-    ) : (
-      <div className="App">
+    <div className="App">
 
-        <Navbar isScrolling={scrollTop} />
-        
-        <Cover />
+      <Navbar isScrolling={scrollTop} />
+      
+      <Cover />
 
-        <About />
+      <About />
 
-        <Slider />
+      <Slider />
 
-        <Skills />
+      <Skills />
 
-        <Info />
+      <Info />
 
-        <Footer/>
-      </div>
-    )}
-  </>
+      <Footer/>
+    </div>
   );
 }
 
